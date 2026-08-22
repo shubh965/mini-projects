@@ -2,7 +2,7 @@
 An interactive 3D Celestial Sphere visualization built with **Python**, **NumPy**, and **Plotly**. This project models the celestial coordinate system with stars, celestial poles, coordinate grids (Right Ascension and Declination), the celestial equator, and the ecliptic.
 
 
-## ✨ Features
+## Features
 - **Translucent Celestial Sphere**: A 3D unit sphere representing the sky surrounding Earth.
 - **Stars & Celestial Objects**: 1,500 randomly generated star positions projected onto the sphere using spherical coordinates $(x, y, z)$.
 - **Celestial Equator & Poles**: Clearly marked Celestial Equator ($0^\circ$ Dec) and North/South Celestial Poles ($\pm 90^\circ$ Dec).
@@ -14,26 +14,26 @@ An interactive 3D Celestial Sphere visualization built with **Python**, **NumPy*
 - **Export & Interactivity**: Interactive pan/zoom/rotate in the browser and exports automatically to an HTML file (`celestial_sphere.html`).
 
 
-## 🛠️ Prerequisites & Installation
+## Prerequisites & Installation
 Ensure you have Python installed, then install the required dependencies:
 ```bash
 pip install numpy plotly
 ```
 
-## 🚀 Usage
+## Usage
 Run the main script:
 ```bash
 python celestial_sphere.py
 ```
 
-## 📐 Mathematical Formulation
+## Mathematical Formulation
 Converting celestial coordinates (Right Ascension $\alpha$, Declination $\delta$) on a unit sphere ($R=1$) to 3D Cartesian coordinates $(x, y, z)$:
 $$x = \cos(\delta) \cos(\alpha)$$
 $$y = \cos(\delta) \sin(\alpha)$$
 $$z = \sin(\delta)$$
 
 
-## 📁 Project Structure
+## Project Structure
 ```text
 3D Celestial Sphere/
 ├── celestial_sphere.py      # Main script to compute geometry and render 3D plot

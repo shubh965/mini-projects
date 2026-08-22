@@ -1,2 +1,2 @@
 # mini-projects
-Small projects for basic application of what I learn.
+Small projects for basic application of whatever I learn
